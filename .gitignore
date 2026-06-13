@@ -1,0 +1,33 @@
+---
+
+### ۲. فایل `.gitignore`
+برای اینکه فایل‌های اضافی پایتون، چک‌پوینت‌های مدل و فایل‌های لوکال VS Code روی گیت‌هاب آپلود نشن:
+
+```text
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPYNB Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Keras / TensorFlow Models
+*.h5
+*.keras
+*.ckpt
+
+# IDEs and editors
+.vscode/
+.idea/
